@@ -12,20 +12,31 @@
         android:id="@+id/btnSelect"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="650dp" />
+        android:layout_marginTop="600dp"
+        android:text="Videos" />
+
+    <Button
+        android:id="@+id/btnSelect1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSelect"
+        android:layout_marginTop="10dp"
+        android:text="Images" />
+
 
     <ImageView
         android:id="@+id/previewimage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/btnSelect"
-        android:layout_centerInParent="true"
-        />
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="26dp"
+        android:visibility="visible"
+        android:layout_marginLeft="40dp"/>
 
     <VideoView
         android:id="@+id/videoView"
-        android:layout_width="match_parent"
-        android:layout_height="600dp"
+        android:layout_width="402dp"
+        android:layout_height="541dp"
         android:visibility="invisible" />
 
 
